@@ -47,3 +47,5 @@ gradle-app.setting
 
 # End of https://www.toptal.com/developers/gitignore/api/java,gradle
 
+# ignore github's personal access token 
+.github_pat
