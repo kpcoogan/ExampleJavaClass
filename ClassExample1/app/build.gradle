@@ -28,3 +28,13 @@ application {
     // Define the main class for the application.
     mainClass = 'ClassExample1.App'
 }
+
+run {
+    standardInput = System.in
+}
+
+jar {
+    manifest {
+        attributes 'Main-Class': 'ClassExample1.App'
+    }
+}
